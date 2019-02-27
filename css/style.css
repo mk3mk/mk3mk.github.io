@@ -1,0 +1,183 @@
+/*----------------
+ 	General
+----------------*/
+
+
+/*подключаем шрифты Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
+
+
+/*
+font-family: 'PT Sans', arial;
+font-family: 'PT Sans Bold', arial;
+font-family: 'PT Sans Caption Bold', arial;
+*/
+
+html, body, a, p, h1, h2, h3, h4, h5, h6, div, ul, li{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+body{
+	margin: auto;
+    width:100vw;
+    border: 0px solid red;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	overflow-x: hidden;
+	opacity: 1;
+}
+
+.clear {
+	clear: both;
+}
+
+.header{
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    width: 245px;
+    height: 65px;
+    background: #ddd;
+    margin: 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    text-decoration: none;
+    transition: 0.3s;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color:cadetblue;
+    font-family: fantasy;
+    font-size: 22px;
+    
+}
+
+
+a:hover{
+    background: #5d5d5d;
+    transition: 0.3s;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------
+ 	media
+----------------*//*
+
+
+@media screen and (max-width: 960px){
+    
+    
+}
+
+
+@media screen and (max-width: 768px){
+    
+
+    
+}
+
+
+@media screen and (max-width: 320px){
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
