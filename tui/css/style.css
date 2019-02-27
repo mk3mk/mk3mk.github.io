@@ -1,0 +1,743 @@
+/*----------------
+ 	General
+----------------*/
+
+
+/*подключаем шрифты Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ShowBorders {
+	border: 0.02px solid red;
+}
+
+body {
+	margin: auto;
+	width: 100vw;
+	height: 2000px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #092a5e;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.displayNone {
+	display: none;
+}
+
+.displayBlock {
+	display: block;
+}
+
+.section {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+/*----------------
+ 	section1
+----------------*/
+
+.section1 {
+	width: 100%;
+	margin: auto;
+	background: url('../images/pic01.jpg');
+	background-size: cover;
+	padding-bottom: 350px;
+}
+
+.navigation {
+	padding-top: 27px;
+	min-height: 100px;
+	background: rgba(112,203,244,0.80);
+}
+
+#logo {
+	width: 100px;
+	height: 44px;
+	float: left;
+	background: url('../images/tui.png');
+	background-size: cover;
+	margin-left: 8vw;
+	cursor: pointer;
+}
+
+ul {
+	float: right;
+	margin-right: 3vw;
+	transition: 0.25s;
+	transform: scaleY(1);
+}
+
+li {
+	list-style-type: none;
+ /* Убираем маркеры */
+	float: left;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 12px;
+	color: #092a5e;
+	transition: 0.25s;
+}
+
+li a {
+	margin: auto;
+	display: block;
+	width: 105%;
+	height: 100%;
+}
+
+li:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.hero {
+	padding-top: 400px;
+}
+
+.hero h1 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #092a5e;
+	width: 98vw;
+	margin: auto;
+}
+
+.buttonsHero {
+	padding-top: 86px;
+	width: 72%;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+#buttonShowTours, #buttonShowResorts {
+	width: 280px;
+	height: 54px;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 15px;
+	cursor: pointer;
+}
+
+#buttonShowTours {
+	background: #ef0000;
+	color: #fff;
+}
+
+#buttonShowResorts {
+	background: #092a5e;
+	color: #fff;
+}
+
+.fa-chevron-down {
+	position: relative;
+	bottom: -300px;
+}
+
+
+/*----------------
+ 	section2 - блок кнопок Что привезти и Что попробовать  
+----------------*/
+
+.section2 {
+	background: #e5ecf4;
+}
+
+.albaniaWhatTodo {
+	margin-top: 100px;
+	padding-top: 40px;
+	background: #70cbf4;
+}
+
+.albaniaWhatTodo h1 {
+	font-size: 22px;
+	color: #092a5e;
+	text-transform: uppercase;
+}
+
+/*  блок кнопок Что привезти и Что попробовать  */
+.buttonsAlbania {
+	padding-top: 36px;
+	width: 870px;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+#buttonWhatToBring, #buttonWhatToTry {
+	width: 50%;
+	height: 54px;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 15px;
+	cursor: pointer;
+	border: 0 solid red;
+}
+
+.sliderWrapBring, .sliderWrapTry {
+	margin: 30px auto;
+	width: 870px;
+	height: 600px;
+	padding: 0px;
+	border: 0px solid red;
+	overflow: hidden;
+}
+
+.sliderPolosaWhatToBring, .sliderPolosaWhatToTry {
+	width: 5000px;
+	height: 605px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+/*
+	-webkit-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	transition: all ease 1s;
+*/;
+}
+
+.slideToBring, .slideToTry {
+	width: 280px;
+	height: 600px;
+	float: left;
+	margin-right: 10px;
+	background: #fff;
+}
+
+.slideToBringImg, .slideToTryImg {
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.slideToBring:nth-child(1) .slideToBringImg {
+	background: url('../images/wine.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(2) .slideToBringImg {
+	background: url('../images/olive.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(3) .slideToBringImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(4) .slideToBringImg {
+	background: url('../images/butter.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(5) .slideToBringImg {
+	background: url('../images/hleb.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(6) .slideToBringImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(7) .slideToBringImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToBring:nth-child(8) .slideToBringImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(1) .slideToTryImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(2) .slideToTryImg {
+	background: url('../images/pashtet.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(3) .slideToTryImg {
+	background: url('../images/gazirovka.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(4) .slideToTryImg {
+	background: url('../images/chebureki.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(5) .slideToTryImg {
+	background: url('../images/wine.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(6) .slideToTryImg {
+	background: url('../images/wine.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(7) .slideToTryImg {
+	background: url('../images/gazirovka.jpg');
+	background-size: cover;
+}
+
+.slideToTry:nth-child(8) .slideToTryImg {
+	background: url('../images/pashtet.jpg');
+	background-size: cover;
+}
+
+.slideHeader {
+	color: #092a5e;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 16px;
+	padding-top: 15px;
+}
+
+.slideText {
+	color: #092a5e;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px;
+	height: 205px;
+	overflow: hidden;
+}
+
+.sliderNav {
+	margin: auto;
+	width: 945px;
+	height: 0px;
+	position: relative;
+	top: -375px;
+}
+
+.sliderNavPrev, .sliderNavNext {
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border-radius: 50%;
+	position: relative;
+	top: -25px;
+	-webkit-box-shadow: 0 0 20px #092a5e;
+	box-shadow: 0 0 20px #092a5e;
+}
+
+.sliderNavPrev:hover, .sliderNavNext:hover {
+	-webkit-box-shadow: 0 0 30px #092a5e;
+	box-shadow: 0 0 30px #092a5e;
+	cursor: pointer;
+}
+
+.sliderNavPrev:hover .fa-chevron-left {
+	color: #092a5e;
+}
+
+.sliderNavNext:hover .fa-chevron-right {
+	color: #092a5e;
+}
+
+.sliderNavPrev {
+	float: left;
+}
+
+.sliderNavNext {
+	float: right;
+}
+
+.sliderPaginationTry, .sliderPaginationBring {
+	margin: auto;
+	width: 65vw;
+	height: 30px;
+	position: relative;
+	top: -80px;
+	border-radius: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.sliderNavPagTry, .sliderNavPagBring {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	position: relative;
+	top: -6px;
+	margin: 12px;
+	border: 2px solid #777;
+	-webkit-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+	-webkit-transform: scale(2.5);
+	-ms-transform: scale(2.5);
+	transform: scale(2.5);
+	padding-top: 15px;
+	color: #092a5e;
+}
+
+.fa-chevron-left {
+	padding-right: 2px;
+}
+
+.fa-chevron-right {
+	padding-left: 2px;
+}
+
+@media screen and (max-width: 1060px) {
+	.navigation {
+		padding-top: 15px;
+		min-height: 120px;
+		background: rgba(112,203,244,0.80);
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	#logo {
+		width: 100px;
+		height: 44px;
+		background: url('../images/tui.png');
+		background-size: cover;
+		margin: auto;
+	}
+
+	ul {
+		margin-right: 8vw;
+	}
+
+	.sliderPaginationTry, .sliderPaginationBring {
+		top: -10px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+    
+	.section1 {
+		width: 100%;
+		margin: auto;
+		background: url('../images/pic01.jpg');
+		background-size: cover;
+		padding-bottom: 15vw;
+	}
+
+	ul {
+		margin-right: 0vw;
+	}
+
+	li {
+		list-style-type: none;
+ /* Убираем маркеры */
+		float: left;
+		font-size: 2vw;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 5px;
+	}
+
+	.hero h1 {
+		font-size: 22px;
+		;
+	}
+
+	.hero {
+		padding-top: 20vw;
+	}
+
+	.fa-chevron-down {
+		position: relative;
+		bottom: -100px;
+	}
+
+	.buttons {
+		width: 72%;
+	}
+
+	#buttonShowTours, #buttonShowResorts {
+		width: 25vw;
+		height: 8vw;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 12px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.sliderWrapBring, .sliderWrapTry {
+		width: 580px;
+	}
+
+	.sliderNav {
+		width: 650px;
+	}
+
+	.buttonsAlbania {
+		width: 580px;
+	}
+
+	.fa-chevron-down {
+		position: relative;
+		bottom: -80px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.buttons {
+		width: 72%;
+	}
+
+	.hero h1 {
+		width: 80%;
+		font-size: 18px;
+		;
+	}
+
+	#buttonShowTours, #buttonShowResorts {
+		width: 48%;
+		height: 15vw;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 12px;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+
+	.fa-chevron-down {
+		position: relative;
+		bottom: -30px;
+	}
+
+	.buttonsAlbania {
+		width: 290px;
+	}
+
+	.buttonsAlbania {
+		padding-top: 36px;
+		width: 70%;
+		margin: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+
+	#buttonWhatToBring, #buttonWhatToTry {
+		width: 100%;
+		height: 54px;
+		font-size: 16px;
+		font-weight: 200;
+		padding: 12px 5px 5px 5px;
+		cursor: pointer;
+		border: 0 solid red;
+	}
+
+	.sliderWrapBring, .sliderWrapTry {
+  /*  по одному слайду в ряд  */
+		width: 290px;
+	}
+
+	.sliderNav {
+		width: 350px;
+	}
+
+	.sliderNavPagBring, .sliderNavPagTry {
+		margin: 10px;
+	}
+
+	ul {
+		width: 80%;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	li {
+		list-style-type: none;
+ /* Убираем маркеры */
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 8px;
+		border: 1px solid #092a5e;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.buttons {
+		width: 72%;
+	}
+
+	.sliderWrapBring, .sliderWrapTry {
+		width: 72%;
+	}
+
+	.sliderNav {
+		width: 95%;
+	}
+
+	.sliderNavPagBring, .sliderNavPagTry {
+		margin: 2px;
+	}
+
+	.buttonsHero {
+		padding-top: 86px;
+		width: 72%;
+		margin: auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+
+	#buttonShowTours, #buttonShowResorts {
+		width: 100%;
+		height: 15vw;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 400;
+		padding: 15px;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+
+	ul {
+		float: right;
+		margin-right: 3vw;
+		transition: 0.25s;
+		transform: scaleY(1);
+		width: 80%;
+		margin-top: 0px;
+	}
+
+	#menu {
+		font-size: 18px;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 12px;
+		color: #092a5e;
+		transition: 0.25s;
+		margin-top: 25px;
+		padding: 8px;
+		border: 1px solid #092a5e;
+		width: 80%;
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+
+	#menui {
+		float: right;
+		color: #092a5e;
+	}
+
+	.rotate90 {
+		transform: rotate(180deg);
+	}
+}
+
+.bg092a5e {
+	background: #092a5e;
+}
+
+.bg_white {
+	background: #fff;
+	color: #70cbf4;
+}
+
+.bg_tui_blue {
+	background: #70cbf4;
+	color: #fff;
+}
+
+.red {
+	background: red;
+}
+
+.kurorty, .oteli, .Video, .ForWho {
+	width: 100%;
+	height: 500px;
+	border: 0px solid red;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.kurorty .container, .oteli .container, .Video .container, .ForWho .container {
+	width: 80%;
+	border: 1px solid #092a5e;
+	margin: auto;
+	background: #fff;
+}
+
+.kurorty h2, .oteli h2, .Video h2, .ForWho h2 {
+	color: #092a5e;
+	font-size: 22px;
+	text-transform: uppercase;
+}

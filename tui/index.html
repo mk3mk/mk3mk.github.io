@@ -1,13 +1,192 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+	<meta charset="UTF-8" />
+	<title>tui-главная</title>
+	<link href="http://allfont.ru/allfont.css?fonts=pt-sans" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=pt-sans-caption-bold" rel="stylesheet" type="text/css" />
+	<link href="http://allfont.ru/allfont.css?fonts=pt-sans-bold" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	<link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"> </head>
+
 <body>
-туи 
+	<!--header-->
+	<section class="section section1">
+		<div class="container navigation">
+			<div id="logo"></div>
+			<div class="displayNone" id="menu">Меню<i id="menui" class="fas fa-caret-down" aria-hidden="true"></i></div>
+			<ul id="ul">
+				<li><a href="#kurorty">Курорты</a></li>
+				<li><a href="#oteli">Отели</a></li>
+				<li><a href="#whatToBring">Что привезти</a></li>
+				<li><a href="#whatToBring">Что попробовать</a></li>
+				<li><a href="#Video">Видео</a></li>
+				<li><a href="#ForWho">Для кого подойдет</a></li>
+			</ul>
+		</div>
+		<div class="container hero">
+			<h1>Албания - безвизовая Европа с роскошными пляжами!</h1>
+			<div class="buttonsHero"> <a href="list.html" id="buttonShowTours">Посмотреть туры</a> <a href="list.html" id="buttonShowResorts">Посмотреть курорты</a> </div> <i class="fa fa-chevron-down" aria-hidden="true"></i> </div>
+	</section>
+	<section class="section kurorty ">
+		<a href="" name="kurorty"></a>
+		<div class="container kurorty">
+			<h2>Курорты</h2> </div>
+	</section>
+	<section class="section oteli">
+		<a href="" name="oteli"></a>
+		<div class="container oteli">
+			<h2>Отели</h2> </div>
+	</section>
+	<section class="section section2">
+		<div class="container albaniaWhatTodo">
+			<h1>Чем заняться в Албании? </h1>
+			<div class="buttonsAlbania">
+				<button id="buttonWhatToBring" class="bg_white">ЧТО ПРИВЕЗТИ
+					<a href="" name="whatToBring"></a>
+				</button>
+				<button id="buttonWhatToTry" class="bg_tui_blue">ЧТО ПОПРОБОВАТЬ
+					<a href="" name="whatToTry"></a>
+				</button>
+			</div>
+		</div>
+		<!--    начало слайдера что привезти sliderWhatToBring     -->
+		<div class="container sliderWhatToBring">
+			<div class="sliderWrapBring isNotHover">
+				<div class="sliderPolosaWhatToBring">
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Оливки и оливковое масло</div>
+						<div class="slideText">Роберт Берат славится своими крупными оливками, а из жирных оливок региона Влёра фермеры производят одно из самых качественных оливковых масел во всем Средиземноморье. Хотите порадовать близких - захватите с собой бутылочку жидкого золота.</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Чебуреки</div>
+						<div class="slideText">Чебурек — блюдо северокавказской кухни. Представляет собой пирожок из пресного теста с начинкой из измельчённой жирной баранины с луком и пряностями. Чебуреки обжаривают в большом количестве растительного масла или бараньего жира. Подают горячими.</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Масло</div>
+						<div class="slideText">Имеет высокое содержание молочного жира — 50—82,5 % (чаще — 78—82,5 %; в топлёном масле — около 99 %).</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Хлеб</div>
+						<div class="slideText">Для приготовления хлеба употребляют пшеничную и ржаную муку, реже — кукурузную, ячменную и другие. Словом хлеб часто называют сельскохозяйственные культуры (пшеницу, рожь, ячмень и другие), а также само зерно этих культур и изготовляемую из него</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+					<div class="slideToBring">
+						<div class="slideToBringImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+				</div>
+			</div>
+			<div class="sliderNav">
+				<div class="sliderNavPrev sliderNavPrevBring"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
+				<div class="sliderNavNext sliderNavNextBring"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </div>
+			</div>
+			<div class="sliderPaginationBring">
+				<div class="sliderNavPagBring"></div>
+				<div class="sliderNavPagBring"></div>
+				<div class="sliderNavPagBring"></div>
+				<div class="sliderNavPagBring"></div>
+				<div class="sliderNavPagBring"></div>
+				<div class="sliderNavPagBring"></div>
+			</div>
+		</div>
+		<!--    конец слайдера что привезти sliderWhatToBring     -->
+		<!--    начало слайдера что попробовать sliderWhatToTry     -->
+		<div class="container sliderWhatToTry displayNone">
+			<div class="sliderWrapTry isNotHover">
+				<div class="sliderPolosaWhatToTry">
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Чебуреки</div>
+						<div class="slideText">Чебурек — блюдо северокавказской кухни. Представляет собой пирожок из пресного теста с начинкой из измельчённой жирной баранины с луком и пряностями. Чебуреки обжаривают в большом количестве растительного масла или бараньего жира. Подают горячими.</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Паштет</div>
+						<div class="slideText">В печёночный паштет часто добавляют сливочное масло, морковь и лук. Чтобы придать паштету более сложный вкус и аромат, в него можно добавить различные травы, а также вино и тёртые орехи. </div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Газированные напитки</div>
+						<div class="slideText">Природная газированная вода известна с древнейших времён и использовалась в лечебных целях. Гиппократ посвятил этой воде целую главу своего труда и велел больным не только пить её, но и купаться в ней.</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Масло</div>
+						<div class="slideText">Имеет высокое содержание молочного жира — 50—82,5 % (чаще — 78—82,5 %; в топлёном масле — около 99 %).</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Хлеб</div>
+						<div class="slideText">Для приготовления хлеба употребляют пшеничную и ржаную муку, реже — кукурузную, ячменную и другие. Словом хлеб часто называют сельскохозяйственные культуры (пшеницу, рожь, ячмень и другие), а также само зерно этих культур и изготовляемую из него</div>
+					</div>
+					<div class="slideToTry">
+						<div class="slideToTryImg"></div>
+						<div class="slideHeader">Алкогольные напитки</div>
+						<div class="slideText">Самыми популярными напитками в Албании считаются крепкая настойка Ракия, коньяк Скандерберг, названный в честь национального героя, пиво корса, которое в 2009 году было награждено международным призом Европы, и старинное албанское Кобо</div>
+					</div>
+				</div>
+			</div>
+			<div class="sliderNav">
+				<div class="sliderNavPrev sliderNavPrevTry"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
+				<div class="sliderNavNext sliderNavNextTry"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </div>
+			</div>
+			<div class="sliderPaginationTry">
+				<div class="sliderNavPagTry"></div>
+				<div class="sliderNavPagTry"></div>
+				<div class="sliderNavPagTry"></div>
+				<div class="sliderNavPagTry"></div>
+				<div class="sliderNavPagTry"></div>
+				<div class="sliderNavPagTry"></div>
+			</div>
+		</div>
+		<!--    конец слайдера что попробовать sliderWhatToTry     -->
+	</section>
+	<section class="section Video">
+		<a href="" name="Video"></a>
+		<div class="container Video">
+			<h2>Видео</h2> </div>
+	</section>
+	<section class="section ForWho">
+		<a href="" name="ForWho"></a>
+		<div class="container ForWho">
+			<h2>Для кого подойдёт</h2> </div>
+	</section>
+	<script src="js/main.js" defer></script>
 </body>
+
 </html>
