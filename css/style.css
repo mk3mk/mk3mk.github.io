@@ -32,14 +32,21 @@ body{
 	line-height: 1.75;
 	overflow-x: hidden;
 	opacity: 1;
+    background: url(../images/computer-1920-2.jpg) fixed,
+  linear-gradient(to top, #5080b1, #004e8c) fixed;
+    background-repeat: no-repeat;
 }
 
 .clear {
 	clear: both;
 }
 
-.tre{
+.first{
     height: 200px;
+}
+
+.second{
+    height: 2200px;
 }
 
 .header{
@@ -52,7 +59,7 @@ body{
     justify-content: center;
 }
 
-a{
+.header a{
     width: 245px;
     height: 65px;
     background: #ddd;
@@ -82,7 +89,13 @@ a:hover{
 
 
 
-
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+}
 
 
 
