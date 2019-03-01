@@ -196,6 +196,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae546', end
     text-align: center;
 }
 
+.credits a{
+    text-decoration: none;
+}
+
 /* Медиа-запросы */
 
 @media screen and (max-width: 992px) {
