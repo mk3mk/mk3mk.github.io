@@ -43,6 +43,14 @@ body{
 
 .first{
     height: 200px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.first h1{
+    color:cadetblue;
+    font-family: fantasy;
+    font-size: 52px;
 }
 
 .second{
@@ -57,11 +65,12 @@ body{
     display: -o-flex;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header a{
-    width: 245px;
-    height: 65px;
+    width: 205px;
+    height: 55px;
     background: #ddd;
     margin: 10px;
     display: -webkit-flex;
@@ -76,7 +85,7 @@ body{
     align-items: center;
     color:cadetblue;
     font-family: fantasy;
-    font-size: 22px;
+    font-size: 18px;
     
 }
 
