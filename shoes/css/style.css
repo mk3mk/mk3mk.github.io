@@ -1,0 +1,729 @@
+/*----------------
+ 	General
+----------------*/
+
+
+/*подключаем шрифты Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
+
+
+/*
+font-family: 'PT Sans', arial;
+font-family: 'PT Sans Bold', arial;
+font-family: 'PT Sans Caption Bold', arial;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+    
+}
+
+/*
+body{
+    margin: auto;
+    width:100vw;
+    height: 3500px;
+    border: 0px solid red;
+    font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	overflow-x: hidden;
+	opacity: 1;
+    
+    background: linear-gradient(270deg, #005773, #03cddb, #127b9c, #4db8da, #2b64ad);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 16s ease infinite;
+-moz-animation: AnimationName 16s ease infinite;
+-o-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;
+}
+
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+*/
+
+
+
+
+
+
+
+body{
+    margin: auto;
+    width:100vw;
+    height: 3500px;
+    border: 0px solid red;
+    font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.75;
+	overflow-x: hidden;
+	opacity: 1;
+    
+     background: linear-gradient(219deg, #005773, #0374db, #9bd2e3, #4db8da, #43d0f6, #43c1f6);
+background-size: 1200% 1200%;
+
+-webkit-animation: body 16s ease infinite;
+-moz-animation: body 16s ease infinite;
+-o-animation: body 16s ease infinite;
+animation: body 16s ease infinite;
+}
+
+
+ @-webkit-keyframes body {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+@-moz-keyframes body {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+@-o-keyframes body {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+@keyframes body {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+
+
+
+
+
+.margin-auto{
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.displayNone{
+    display:none;
+}
+
+.displayBlock{
+    display:block;
+}
+
+/*----------------
+ 	основной контент страницы
+----------------*/
+
+.section{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+.ccontainer {
+    
+    margin: 0 auto;
+
+}
+
+.ccontainer-logo{
+    width: 95%;
+    height: 150px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    z-index: 15;
+}
+
+.hamburger{
+    width: 65px;
+    height: 65px;
+    border: 3px solid #fff;
+    position: absolute;
+    right: 80px;
+}
+
+
+.hamburg{
+    background: #fff;
+    width: 45px;
+    height: 3px;
+    position: absolute;
+    left: 7px;
+}
+
+.hamburg1{
+    top: 18px;
+}
+
+.hamburg2{
+    top: 28px;
+}
+
+.hamburg3{
+    top: 38px;
+}
+
+.ccontainer-hero{
+    width: 75%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+}
+
+
+.hero{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__buttons{
+    margin-top:55px;
+    text-align: left;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px;
+    color: #fff;
+    box-shadow: 0 0 35px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0 0 75px;
+    transition: 0.25s;
+}
+
+.button1{
+    background: #00ecf4;
+    border: 0px solid #fff;
+}
+
+.button2{
+    background: rgba(255,255,255,0.25);
+    border: 2px solid #fff;
+}
+
+.shoe-1{
+    width: 400px;
+    height: 330px;
+    background: url(../images/shoe-1.png);
+    background-position: 0px 0px;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    transition: 0.35s;
+    
+    animation: shoe-1 6.5s ease infinite alternate;
+}
+
+@keyframes shoe-1 {
+	0 {
+		transform: translate(0px,-120px);
+	}
+    
+	100% {
+		transform: translate(0px,30px);
+	}
+}
+
+.shoe-1:hover{
+    background-position: 0px -20px;
+    transition: 0.35s;
+    cursor: pointer;
+    filter: blur(2px);
+}
+
+.shoe-1:hover .shoe-1-mirror{
+    top:285px;
+    transition: 0.35s;
+    filter: blur(8px);
+}
+
+.shoe-1:hover #shadow-01{
+    filter: blur(4px);
+    transform: scale(3,3);
+    opacity: 0.39935; 
+    transition: 0.35s;
+}
+
+.shoe-1-mirror{
+    width: 400px;
+    height: 350px;
+    background: url(../images/shoe-1-mirror.png);
+    background-size: cover;
+    position: relative;
+    top:275px;
+    filter: blur(4px);
+    opacity: 0.285;
+    transition: 0.35s;
+}
+
+#shadow-01{
+    width: 155px;
+    height: 25px;
+    position: absolute;
+    bottom:15px;
+    left: 100px;
+    filter: blur(4px);
+    transform: scale(3,3);
+    opacity: 0.635;    
+    transition: 0.35s;
+}
+
+.header__title{
+    width: 440px;
+}
+
+.header__title h1{
+    color: #00fffc;
+    font-size: 40px;
+    text-shadow: 0 0 15px;
+    transition: 0.25s;
+    z-index: 2500; 
+    transform: translateX(0px);
+    
+    animation: titleh1 26.5s ease infinite alternate;
+}
+
+@keyframes titleh1 {
+	0 {
+		color: #00fffc;
+	}
+
+
+	25% {
+		color: #005773;
+	}
+
+	50% {
+		color: ##43d0f6;
+	}
+
+    75% {
+		color: #127b9c;
+	}
+    
+	100% {
+		color: ##00fffc;
+	}
+}
+
+
+.header__title h1:hover{
+    color: #00fffc;
+    font-size: 40px;
+    text-shadow: 0 0 25px;
+    transition: 0.25s;
+    cursor: pointer;
+    filter: blur(2px);
+    transform: translateX(2px);
+}
+
+#layerwave1{
+    
+}
+
+
+.figures{
+    width: 8%;
+    height: 10px;
+    position: absolute;
+    background: #00fffc;
+    background: rgba(255,255,255,0.3125);
+    
+}
+
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,0.125);
+    border-radius: 50%;
+    border: 5px solid #00fffc;
+    position: absolute;
+    top: -150px;
+    left: 150px;
+    opacity: 0.25;
+    box-shadow: 0 0 35px #fff;
+    transition: 0.25s;
+    cursor: pointer;
+    
+    animation: circle1 6.5s ease infinite alternate;
+}
+
+@keyframes circle1 {
+	0 {
+		transform: translate(0px,-20px);
+	}
+    
+	100% {
+		transform: translate(300px,-30px);
+	}
+}
+
+.circle1:hover{
+    opacity: 0.125;
+    box-shadow: 0 0 85px #fff;
+    transition: 0.25s;
+    filter: blur(2px);
+}
+
+.circle2{
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.125);
+    border-radius: 50%;
+    border: 1px solid #00fffc;
+    position: absolute;
+    top: 390px;
+    left: -80px;
+    box-shadow: 0 0 35px #fff;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 200;
+    
+    animation: circle2 6.5s ease infinite alternate;
+}
+
+@keyframes circle2 {
+	0 {
+		transform: translate(0px,-120px);
+	}
+    
+	100% {
+		transform: translate(30px,30px);
+	}
+}
+
+.circle3{
+    width: 250px;
+    height: 250px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 50%;
+    border: 5px solid #00fffc;
+    position: absolute;
+    top: 30px;
+    left: 60vw;
+    opacity: 0.25;
+    box-shadow: 0 0 35px #fff;
+    transition: 0.25s;
+    cursor: pointer;
+    
+    animation: circle3 3.5s ease infinite alternate;
+}
+
+@keyframes circle3 {
+	0 {
+		transform: translate(0px,-80px);
+	}
+    
+	100% {
+		transform: translate(0px,30px);
+	}
+}
+
+
+/*----------------
+ 	features
+----------------*/
+
+
+.ccontainer-features{
+    position: absolute;
+    width: 100%;
+}
+
+.shoe-2-wrap{
+    width: 100%;
+    height: 580px;
+    position: absolute;
+}
+
+.shoe-2{
+    width: 450px;
+    height: 380px;
+    background: url(../images/shoe-2.png);
+    background-size: 100%;
+    position: absolute;
+    top: 120px;
+    left: 35%;
+    margin: auto;
+}
+
+.shoe-2-mirror{
+    width: 450px;
+    height: 380px;
+    background: url(../images/shoe-2-mirror2.png);
+    background-size: cover;
+    position: relative;
+    top:475px;
+    left: 35%;
+    filter: blur(5px);
+    opacity: 0.585;
+    z-index: 150;
+}
+
+#shadow-02{
+    border: 0px solid red;
+    width: 155px;
+    height: 25px;
+    position: relative;
+    bottom:-100px;
+    left: 50%;
+    filter: blur(4px);
+    transform: scale(5,3);
+    opacity: 0.39935;   
+    z-index: 150;
+}
+
+.hh3{
+    color: #00fffc;
+    position: absolute;
+    z-index: 150;
+}
+
+.hh3-1{
+    position: absolute;
+    top: 220px;
+    left: 5%;
+    margin-left: 50px;
+}
+
+.hh3-2{
+    position: absolute;
+    top: 520px;
+    left: 69%;
+    
+}
+
+.hh3-3{
+    position: absolute;
+    top: 150px;
+    left: 65%;
+}
+
+.button3{
+    background: #00fffc;
+    border: 0px solid #0f0f0f;
+    box-shadow: 0 0 35px #555;
+    transition: 0.25s;
+    color: #fff;
+}
+
+.button3:hover{
+    background: #fff;
+    border: 0px solid #0f0f0f;
+    box-shadow: 0 0 65px #555;
+    transition: 0.25s;
+    color: #00fffc;
+}
+
+
+
+
+/*----------------
+ 	the way you like it
+----------------*/
+
+.section-the-way{
+    position: relative;
+    top: 1450px;
+}
+
+
+.shoe-3{
+    width: 680px;
+    height:270px;
+    background: url(../images/shoe-3.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -350px;
+    left: 5%;
+    margin: auto;
+}
+
+.shoe-3-circle{
+    background: #fff;
+    width: 850px;
+    height: 1050px;
+    border-radius: 50% 0 0 50% ;
+    position: absolute;
+    top: -780px;
+    right: 0%;
+    transform: scale(1);
+}
+
+.shoe-3-shadow{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 350%;
+    position: relative;
+    bottom: -285px;
+    filter: blur(25px);
+}
+
+.shoe-3-mirror{
+    width: 680px;
+    height:270px;
+    background: url(../images/shoe-3-mirror.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 350px;
+    filter: blur(2px);
+    opacity: 0.25;
+}
+
+.text-wrap{
+    z-index: 250;
+    width: 58%;
+    position: absolute;
+    top: -130px;
+    right: -24vw;
+}
+
+
+.text-wrap h1{
+    margin: 50px auto;
+}
+
+.text-wrap p{
+    margin: 50px auto;
+}
+
+.button4{
+    background: #00fffc;
+    border: 0px solid #0f0f0f;
+    box-shadow: 0 0 35px #555;
+    transition: 0.25s;
+    color: #fff;
+}
+
+.button4:hover{
+    background: #fff;
+    border: 0px solid #0f0f0f;
+    box-shadow: 0 0 65px #555;
+    transition: 0.25s;
+    color: #00fffc;
+}
+
+/*----------------
+ 	section3
+----------------*/
+
+
+    
+    
+    
+/*----------------
+ 	section4
+----------------*/
+
+
+
+
+
+/*----------------
+ 	media
+----------------*//*
+
+
+@media screen and (max-width: 960px){
+    
+    
+}
+
+
+@media screen and (max-width: 768px){
+    
+
+    
+}
+
+
+@media screen and (max-width: 320px){
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
