@@ -70,7 +70,7 @@ body{
 
 .header a{
     width: 205px;
-    height: 55px;
+    height: 255px;
     background: #ddd;
     margin: 10px;
     display: -webkit-flex;
@@ -78,6 +78,7 @@ body{
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    flex-direction: column;
     text-decoration: none;
     transition: 0.3s;
     justify-content: center;
@@ -96,7 +97,24 @@ a:hover{
     color:#fff;
 }
 
+.row-items{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
 
+.col .item{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
+}
 
 #scrollUp {
     bottom: 20px;
