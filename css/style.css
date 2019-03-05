@@ -4,7 +4,7 @@
 
 
 /*подключаем шрифты Roboto*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=socialicious');
 
 
 /*
@@ -32,144 +32,62 @@ body{
 	line-height: 1.75;
 	overflow-x: hidden;
 	opacity: 1;
+/*
     background: url(../images/computer-1920-2.jpg) fixed,
   linear-gradient(to top, #5080b1, #004e8c) fixed;
     background-repeat: no-repeat;
+*/
+    font-family: 'Socialicious';
 }
 
-.clear {
-	clear: both;
-}
 
-.first{
-    height: 200px;
-    padding-top: 65px;
-    text-align: center;
-}
 
-.first h1{
-    color:cadetblue;
-    font-family: fantasy;
-    font-size: 52px;
-}
 
-.second{
-    height: 2200px;
-}
 
-.header{
-    position: relative;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.header a{
-    width: 205px;
-    height: 255px;
-    background: #ddd;
-    margin: 10px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column;
+.jumbotron h1 a{
+    color: orange;
+    font-size: 40px;
     text-decoration: none;
-    transition: 0.3s;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    color:cadetblue;
-    font-family: fantasy;
-    font-size: 18px;
-    
+    transition: 0.25s;
 }
 
-
-a:hover{
-    background: #5d5d5d;
-    transition: 0.3s;
-    color:#fff;
+.jumbotron h1 a:hover{
+    color: #7ac7ef;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.25s;
 }
 
-.row-items{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
+.jumbotron p{
+    color: #547b91;
+    text-decoration: none;
+    transition: 0.25s;
 }
 
-.col .item{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: stretch;
+.card{
+    margin-bottom: 25px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 20px #ddd;
+    transition: 0.25s;
 }
 
-#scrollUp {
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background: red;
-    color: #fff;
+.card:hover{
+    margin-bottom: 25px;
+    opacity: 1;
+    box-shadow: 0px 0px 60px #9f9f9f;
+    transition: 0.25s;
 }
 
+.card h4{
+    color: #777;
+    font-size: 24px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card p{
+    color: #9d9d9d;
+    font-size: 12px;
+}
 
 
 
