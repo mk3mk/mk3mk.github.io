@@ -3,17 +3,12 @@
 ----------------*/
 
 
-/*подключаем шрифты Roboto*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
-
-
-
 
 
 
 /*----------------
  	media
-----------------*//*
+----------------*/
 
 
 @media screen and (max-width: 960px){
