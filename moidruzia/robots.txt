@@ -1,1 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Crawl-Delay: 5
 
+User-agent: GoogleBot
+Disallow: /admin/
+
+User-agent: Yandex
+Disallow: /admin/
+
+Crawl-Delay: 0.5
+
+Sitemap: https://mk3mk.github.io/moidruzia/sitemap.xml
+Host: https://mk3mk.github.io/moidruzia/
